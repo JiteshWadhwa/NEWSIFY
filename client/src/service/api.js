@@ -1,6 +1,6 @@
 import axios from 'axios';
-
 const URL = 'http://localhost:8000';
+//const URL = 'https://newsify-deploy.herokuapp.com';
 
 
 export const getNews = async (page, size = 5) => {

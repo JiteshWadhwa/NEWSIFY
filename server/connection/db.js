@@ -7,7 +7,7 @@ const Connection = async (username, password) => {
         
         console.log('Database connected successfully');
     } catch (error) {
-        console.log('Error while connecting with the database ', error);
+        console.log('Error while connecting with database ', error);
     }
 }
 
